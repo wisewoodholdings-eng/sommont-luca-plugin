@@ -1,0 +1,44 @@
+{
+  "name": "sommont-luca-dev",
+  "version": "0.1.0",
+  "description": "Connect to Sommont's DEV Luca MCP server for testing private wine journal, cellar, palate, and recommendation workflows.",
+  "author": {
+    "name": "Wise Wood Holdings Engineering",
+    "email": "support@sommont.com",
+    "url": "https://sommont.com/"
+  },
+  "homepage": "https://dev.sommont.com/plugins/sommont-luca-dev/",
+  "repository": "https://github.com/wisewoodholdings-eng/sommont-luca-plugin",
+  "license": "Proprietary",
+  "keywords": [
+    "sommont",
+    "luca",
+    "wine",
+    "cellar",
+    "mcp",
+    "chatgpt",
+    "development"
+  ],
+  "interface": {
+    "displayName": "Sommont Luca DEV",
+    "shortDescription": "DEV wine journal testing",
+    "longDescription": "Sommont Luca DEV connects ChatGPT and Codex to Sommont's development MCP server for OAuth, tool metadata, cellar, journal, palate, and recommendation testing before production promotion.",
+    "developerName": "Wise Wood Holdings Engineering",
+    "category": "Food",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://dev.sommont.com/",
+    "privacyPolicyURL": "https://dev.sommont.com/privacy",
+    "termsOfServiceURL": "https://dev.sommont.com/terms",
+    "defaultPrompt": [
+      "Show my DEV Sommont tasting log",
+      "Ask Luca what DEV evidence says",
+      "Add this bottle to my DEV cellar"
+    ],
+    "brandColor": "#4A3B2A"
+  },
+  "mcpServers": "./.mcp.json"
+}

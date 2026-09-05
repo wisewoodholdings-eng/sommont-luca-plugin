@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "sommont-luca": {
+      "type": "http",
+      "url": "https://mcp.sommont.com/mcp",
+      "note": "Sommont's production Luca MCP server. Uses OAuth account linking through Clerk with protected resource metadata at https://mcp.sommont.com/.well-known/oauth-protected-resource. Client ID for pre-defined ChatGPT OAuth setup: 3AO2lHQkWaGfvXbY."
+    }
+  }
+}

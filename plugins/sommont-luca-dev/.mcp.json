@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "sommont-luca-dev": {
+      "type": "http",
+      "url": "https://mcp-dev.sommont.com/mcp",
+      "note": "Sommont's development Luca MCP server. Uses OAuth account linking through Clerk with protected resource metadata at https://mcp-dev.sommont.com/.well-known/oauth-protected-resource."
+    }
+  }
+}

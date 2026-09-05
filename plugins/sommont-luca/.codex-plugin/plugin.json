@@ -1,0 +1,43 @@
+{
+  "name": "sommont-luca",
+  "version": "0.1.0",
+  "description": "Connect to Sommont's Luca MCP server for private wine journal, cellar, palate, and recommendation workflows.",
+  "author": {
+    "name": "Wise Wood Holdings Engineering",
+    "email": "support@sommont.com",
+    "url": "https://sommont.com/"
+  },
+  "homepage": "https://sommont.com/plugins/sommont-luca/",
+  "repository": "https://github.com/wisewoodholdings-eng/sommont-luca-plugin",
+  "license": "Proprietary",
+  "keywords": [
+    "sommont",
+    "luca",
+    "wine",
+    "cellar",
+    "mcp",
+    "chatgpt"
+  ],
+  "interface": {
+    "displayName": "Sommont Luca",
+    "shortDescription": "Private wine journal and cellar",
+    "longDescription": "Sommont Luca connects ChatGPT and Codex to Sommont's hosted MCP server. Luca can read and write a user's private tasting journal, cellar inventory, palate evidence, bottle facts, and personalized recommendations after OAuth account linking.",
+    "developerName": "Wise Wood Holdings Engineering",
+    "category": "Food",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://sommont.com/",
+    "privacyPolicyURL": "https://sommont.com/privacy",
+    "termsOfServiceURL": "https://sommont.com/terms",
+    "defaultPrompt": [
+      "Show my Sommont tasting log",
+      "Ask Luca what I should open tonight",
+      "Add this bottle to my cellar"
+    ],
+    "brandColor": "#4A3B2A"
+  },
+  "mcpServers": "./.mcp.json"
+}
