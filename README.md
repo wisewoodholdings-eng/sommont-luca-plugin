@@ -8,6 +8,51 @@ Luca. It does not contain Sommont application source code.
 - `sommont-luca`: production plugin wrapper for `https://mcp.sommont.com/mcp`
 - `sommont-luca-dev`: development plugin wrapper for `https://mcp-dev.sommont.com/mcp`
 
+## Copy-Paste Install Prompts
+
+Use one of these prompts with ChatGPT, Claude, Codex, or another coding
+assistant that can run terminal commands on your machine.
+
+### Install PROD
+
+```text
+Install the Sommont Luca Codex plugin from GitHub.
+
+Use this public marketplace repo:
+https://github.com/wisewoodholdings-eng/sommont-luca-plugin
+
+Install the production plugin, not the DEV plugin.
+
+Run:
+codex plugin marketplace add wisewoodholdings-eng/sommont-luca-plugin --ref main
+codex plugin add sommont-luca@sommont
+
+Then verify `codex plugin list` shows:
+sommont-luca@sommont installed, enabled
+
+After install, tell me to start a new Codex task/thread so the plugin tools are loaded.
+```
+
+### Install DEV
+
+```text
+Install the Sommont Luca DEV Codex plugin from GitHub.
+
+Use this public marketplace repo:
+https://github.com/wisewoodholdings-eng/sommont-luca-plugin
+
+Install the DEV plugin for pre-production testing, not the production plugin.
+
+Run:
+codex plugin marketplace add wisewoodholdings-eng/sommont-luca-plugin --ref main
+codex plugin add sommont-luca-dev@sommont
+
+Then verify `codex plugin list` shows:
+sommont-luca-dev@sommont installed, enabled
+
+After install, tell me to start a new Codex task/thread so the plugin tools are loaded.
+```
+
 ## OAuth
 
 Sommont Luca uses OAuth account linking through Clerk.
