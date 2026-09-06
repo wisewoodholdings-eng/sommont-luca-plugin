@@ -30,12 +30,34 @@ Protected resource metadata: https://mcp-dev.sommont.com/.well-known/oauth-prote
 Scopes: openid profile email
 ```
 
+## Install From GitHub
+
+Add this repo as a Codex Git marketplace:
+
+```bash
+codex plugin marketplace add wisewoodholdings-eng/sommont-luca-plugin --ref main
+```
+
+Install the production plugin:
+
+```bash
+codex plugin add sommont-luca@sommont
+```
+
+Optional development plugin:
+
+```bash
+codex plugin add sommont-luca-dev@sommont
+```
+
+Start a new Codex thread after installing so the plugin and MCP tools are loaded.
+
 ## Local Codex Marketplace
 
 This repo is structured as a marketplace root:
 
 ```text
-marketplace.json
+.agents/plugins/marketplace.json
 plugins/sommont-luca/.codex-plugin/plugin.json
 plugins/sommont-luca/.mcp.json
 plugins/sommont-luca-dev/.codex-plugin/plugin.json
@@ -46,6 +68,7 @@ Install the marketplace from a local clone when testing in Codex:
 
 ```bash
 codex plugin marketplace add /path/to/sommont-luca-plugin
+codex plugin add sommont-luca@sommont
 ```
 
 The same package files are self-hosted by Sommont:
