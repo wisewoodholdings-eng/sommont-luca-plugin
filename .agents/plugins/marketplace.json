@@ -1,0 +1,32 @@
+{
+  "name": "sommont",
+  "interface": {
+    "displayName": "Sommont"
+  },
+  "plugins": [
+    {
+      "name": "sommont-luca",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sommont-luca"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Food"
+    },
+    {
+      "name": "sommont-luca-dev",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sommont-luca-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Food"
+    }
+  ]
+}
